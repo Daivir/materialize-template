@@ -1,0 +1,22 @@
+@import 'compass';
+@import 'materialize/materialize';
+
+nav {
+  background-color: $primary-color;
+  .brand-logo {
+    i {
+      color: $secondary-color;
+      margin: 0 1rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+#forgot {
+  text-transform: none;
+  text-decoration: underline;
+  @extend .grey-text;
+  &:hover {
+    @extend .text-darken-4;
+  }
+}
