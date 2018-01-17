@@ -1,0 +1,69 @@
+// @mixin break-to($breakpoint) {
+// 	@if map-has-key($breakpoints, $breakpoint) {
+// 		@media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+// 			@content;
+// 		}
+// 	}
+//
+// 	@else {
+// 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+//         + "Please make sure it is defined in `$breakpoints` map.";
+// 	}
+// }
+
+@mixin break-to($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin reset-offset {
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+@mixin grid-actions($size, $i, $spacing) {
+	&.offset-#{$size}#{$i} {
+		margin-left: $spacing;
+	}
+	&.pull-#{$size}#{$i} {
+		right: $spacing;
+	}
+	&.push-#{$size}#{$i} {
+		left: $spacing;
+	}
+}
+
+@mixin make-first-breakpoint($keyList, $currentKey) {
+	$firstKey: first($keyList);
+	@if $firstKey == $currentKey {
+		@for $i from 1 through $num-cols {
+			$col-width: unquote((100 / ($num-cols / $i)) + "%");
+			&.#{$firstKey}#{$i} {
+				width: $col-width;
+				@include reset-offset;
+			}
+			@include grid-actions($firstKey, $i, $col-width);
+		}
+	}
+}
+
+@mixin make-breakpoint($keyList, $currentKey) {
+	@include break-to($currentKey) {
+		$nextKey: next($keyList, $currentKey);
+		@for $i from 1 through $num-cols {
+			$col-width: unquote((100 / ($num-cols / $i)) + "%");
+			&.#{$nextKey}#{$i} {
+				width: $col-width;
+				@include reset-offset;
+			}
+			@include grid-actions("#{$nextKey}", $i, $col-width);
+		}
+	}
+}

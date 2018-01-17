@@ -1,0 +1,22 @@
+// Colors
+@function color($key) {
+	@if map-has-key($colors, $key) {
+		@return map-get($colors, $key);
+	}
+	@warn "Unknown `#{$key}` in $colors.";
+	@return null;
+}
+
+// Lists
+@function current($list, $keyIndex) {
+	@return nth($list, $keyIndex);
+}
+
+@function first($list) {
+	@return current($list, 1);
+}
+
+@function next($list, $currentKey) {
+	$keyIndex: index($list, $currentKey);
+	@return nth($list, $keyIndex + 1);
+}

@@ -1,18 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
-	<link rel="stylesheet" href="pages/assets/css/app.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
 
-<ul class="collection">
-	<li class="collection-item"><a href="pages/login.php">login</a></li>
-</ul>
+<div class="row">
+	<div class="col sm12 md8 lg8 xl8">
+		Lorem ipsum dolor sit amet: Content
+	</div>
+	<div class="col sm12 md4 lg4 xl4">
+		Lorem ipsum dolor sit amet: Content
+	</div>
+</div>
 
-<script type="text/javascript" src="pages/assets/js/jquery-3.2.1.min.js"></script>
-<script type="application/javascript" src="pages/assets/js/materialize/bin/materialize.min.js"></script>
+<script type="application/javascript" src="assets/js/app.js"></script>
 </body>
 </html>

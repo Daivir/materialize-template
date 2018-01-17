@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5dd35c4f-21bb-4981-aa09-388d39112319" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/_normalize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/_functions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/mixins/_grid.scss" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/.sass-cache/4f7630b17585c21a62da40c9500bcde25556fb50/ie.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/.sass-cache/4f7630b17585c21a62da40c9500bcde25556fb50/print.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/.sass-cache/4f7630b17585c21a62da40c9500bcde25556fb50/screen.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/.sass-cache/65e4c30c131f260ea88c3e4f2e16dfc2ba547e74/_utilities.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/.sass-cache/af1a5722249b61fe97c5776f7a26e0902a00f406/_reset.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/config.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/css/materialize/materialize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/fonts/materialize/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/animation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/bin/materialize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/bin/materialize.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/buttons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/cards.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/character_counter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/chips.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/collapsible.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/date_picker/picker.date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/date_picker/picker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/date_picker/picker.time.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/forms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/global.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/hammer.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/initial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/jquery.easing.1.4.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/jquery.hammer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/materialbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/parallax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/pushpin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/scrollFire.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/sideNav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/slider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/tabs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/tapTarget.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/toasts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/transitions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/velocity.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/materialize/waves.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_clearfix.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_float.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_hacks.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_min.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_reset.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/0fe24dfc41fffed2d6891c797fcd7dee100afa65/_tag-cloud.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/1302a0f8a3c12f14e7e302bccec458b24b2a8663/_default.date.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/1302a0f8a3c12f14e7e302bccec458b24b2a8663/_default.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/1302a0f8a3c12f14e7e302bccec458b24b2a8663/_default.time.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_animation.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_appearance.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_background-clip.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_background-origin.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_background-size.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_border-radius.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_box-shadow.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_box-sizing.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_columns.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_deprecated-support.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_filter.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_flexbox.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_font-face.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_hyphenation.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_images.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_inline-block.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_opacity.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_regions.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_text-shadow.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_transform.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_transition.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_user-interface.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_badges.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_buttons.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_cards.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_carousel.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_chips.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_collapsible.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_color.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_dropdown.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_global.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_grid.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_icons-material-design.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_materialbox.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_modal.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_navbar.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_normalize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_preloader.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_pulse.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_roboto.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_sideNav.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_slider.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_table_of_contents.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_tabs.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_tapTarget.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_toast.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_tooltip.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_transitions.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_typography.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_variables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/30f28c8d6c10d90647efb9178bbeb07a8480ebbd/_waves.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3a56f977fc2c02686c7f68f62b251b142cc911b2/app.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_checkboxes.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_file-input.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_forms.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_input-fields.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_radio-buttons.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_range.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_select.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3c0f7b37b47f94cddaced8a19fcf7b46e1290e80/_switches.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3dc42df00806de7d8a69305a38a55c4890752fa3/_color.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3dc42df00806de7d8a69305a38a55c4890752fa3/_general.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3dc42df00806de7d8a69305a38a55c4890752fa3/_sprites.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/3dc42df00806de7d8a69305a38a55c4890752fa3/_tables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_badges.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_buttons.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_cards.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_carousel.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_chips.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_collapsible.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_color.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_dropdown.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_global.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_grid.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_icons-material-design.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_materialbox.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_modal.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_navbar.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_normalize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_preloader.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_pulse.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_roboto.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_sideNav.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_slider.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_table_of_contents.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_tabs.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_tapTarget.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_toast.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_tooltip.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_transitions.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_typography.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_variables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/4d939988bf86eee1f5219699dcb18fbe51aa19a3/_waves.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/573835d864b4df5ce94e4258e1e431786e6d4972/_links.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/573835d864b4df5ce94e4258e1e431786e6d4972/_lists.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/573835d864b4df5ce94e4258e1e431786e6d4972/_text.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/573835d864b4df5ce94e4258e1e431786e6d4972/_units.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/573835d864b4df5ce94e4258e1e431786e6d4972/_vertical_rhythm.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/5a462c574cc9d6048b27e284d2bee463ad06adb0/_base.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/5a462c574cc9d6048b27e284d2bee463ad06adb0/_sprite-img.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/5c1730f32298ffd91557b8d52e7146c95c422f95/_compass.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/622f0a367d2abdc892f2af88934fcd5a48a771fe/_brightness.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/622f0a367d2abdc892f2af88934fcd5a48a771fe/_contrast.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/65e4c30c131f260ea88c3e4f2e16dfc2ba547e74/_utilities.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-size.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_inline-block.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_links.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_lists.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_text.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/text/_replacement.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_float.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_reset.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Users/dupont/Sites/Workspace/v-material/pages/assets/sass/_variables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Users/dupont/Sites/Workspace/v-material/pages/assets/sass/materialize/materialize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/782a0bd87992107041654cec56e572d9555410d7/_grid-background.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/84d74094f0ef546fe6d07230e836e68b4c2f908a/_default.date.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/84d74094f0ef546fe6d07230e836e68b4c2f908a/_default.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/84d74094f0ef546fe6d07230e836e68b4c2f908a/_default.time.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/876348f70d381f049191326c659c0e496d97dde0/materialize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/98a7ed5264178fbd0870c9038118ca3f0a0ab596/_alternating-rows-and-columns.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/98a7ed5264178fbd0870c9038118ca3f0a0ab596/_borders.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/98a7ed5264178fbd0870c9038118ca3f0a0ab596/_scaffolding.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/9db23391baae2d801ee5dc2baa3a4049901ebbc5/_materialize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/9db23391baae2d801ee5dc2baa3a4049901ebbc5/_variables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/9db23391baae2d801ee5dc2baa3a4049901ebbc5/app.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/af1a5722249b61fe97c5776f7a26e0902a00f406/_css3.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/af1a5722249b61fe97c5776f7a26e0902a00f406/_support.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/af1a5722249b61fe97c5776f7a26e0902a00f406/_typography.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/af1a5722249b61fe97c5776f7a26e0902a00f406/_utilities.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/bbe6e3467eb0788de7c874201395cdc9422f15de/_ellipsis.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/bbe6e3467eb0788de7c874201395cdc9422f15de/_force-wrap.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/bbe6e3467eb0788de7c874201395cdc9422f15de/_nowrap.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/bbe6e3467eb0788de7c874201395cdc9422f15de/_replacement.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/cd57c9b0980d0f25e92ee54d3ee2a16b903b7e86/_bullets.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/cd57c9b0980d0f25e92ee54d3ee2a16b903b7e86/_horizontal-list.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/cd57c9b0980d0f25e92ee54d3ee2a16b903b7e86/_inline-block-list.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/cd57c9b0980d0f25e92ee54d3ee2a16b903b7e86/_inline-list.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/db282c953b15e05d1a37ee376f6c1de3dcffde3c/materialize.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_checkboxes.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_file-input.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_forms.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_input-fields.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_radio-buttons.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_range.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_select.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f0f95662d66e6f39eb535e685632cb99061022a4/_switches.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f80149e2d24d84e9c8bc0e2a066a9d62bc1f6d5b/_hover-link.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f80149e2d24d84e9c8bc0e2a066a9d62bc1f6d5b/_link-colors.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/f80149e2d24d84e9c8bc0e2a066a9d62bc1f6d5b/_unstyled-link.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/.sass-cache/fae6d4ce3722f661fc7748756f7c45fd5a64a480/_variables.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/app.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_badges.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_cards.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_carousel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_chips.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_collapsible.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_color.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_dropdown.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_global.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_grid.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_grid.scss" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_icons-material-design.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_materialbox.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_modal.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_navbar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_normalize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_preloader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_pulse.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_roboto.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_sideNav.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_slider.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_table_of_contents.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_tabs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_tapTarget.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_toast.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_tooltip.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_transitions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/_waves.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/date_picker/_default.date.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/date_picker/_default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/date_picker/_default.time.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_checkboxes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_file-input.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_forms.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_input-fields.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_radio-buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_range.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_select.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/components/forms/_switches.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/sass/materialize/materialize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/includes/head.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/includes/header.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/includes/navbar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/includes/script.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/login.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>primary</find>
+      <find>!default</find>
+      <find>test</find>
+      <find>$medium-and</find>
+      <find>map_get</find>
+      <find>$small-screen</find>
+      <find>down</find>
+      <find>small-and-down</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>map-get</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/includes/navbar.html" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/materialize/materialize.scss" />
+        <option value="$PROJECT_DIR$/pages/auth.php" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/_helpers.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/bootstrap/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/bootstrap/components/utilities/_spacing.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/config.rb" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/_bootstrap_variables.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/js/bootstrap.bundle.min.js" />
+        <option value="$PROJECT_DIR$/pages/assets/js/bootstrap.bundle.min.js.map" />
+        <option value="$PROJECT_DIR$/pages/assets/js/jquery-3.2.1.min.js.map" />
+        <option value="$PROJECT_DIR$/pages/assets/js/bootstrap.min.js.map" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/icons/open-iconic.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/icons/open-iconic-bootstrap.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/_custom.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/pages/assets/js/popper.min.js.map" />
+        <option value="$PROJECT_DIR$/pages/assets/js/tether.min.js" />
+        <option value="$PROJECT_DIR$/pages/assets/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/pages/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/_bootstrap-variables.scss" />
+        <option value="$PROJECT_DIR$/pages/assets/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/main.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/bootstrap/mixins/_grid.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/mixins/_grid.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/layout/_grid.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/mixins/_breakpoints.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/layout/_grid-framework.scss" />
+        <option value="$PROJECT_DIR$/materialize/components/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/_mixins.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/_functions.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/sass/components/mixins/_grid.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/components/_grid.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP MAMP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-347" />
+    <option name="y" value="-19" />
+    <option name="width" value="1400" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="materialize-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="materialize-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="materialize-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="materialize-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\materialize-template\assets\sass" />
+      <recent name="D:\Workspace\materialize-template\assets\sass\components" />
+      <recent name="D:\Workspace\materialize-template\assets\sass\mixins" />
+      <recent name="D:\Workspace\materialize-template\assets" />
+      <recent name="D:\Workspace\materialize-template\pages\assets\sass\bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\materialize-template\assets\sass\components" />
+      <recent name="D:\Workspace\materialize-template\assets\sass" />
+      <recent name="D:\Workspace\materialize-template\assets\sass\components\utilities" />
+      <recent name="D:\Workspace\materialize-template\pages\assets\node_modules\bootstrap\scss" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" port="8080" />
+    <configuration name="php-cli" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dd35c4f-21bb-4981-aa09-388d39112319" name="Default" comment="" />
+      <created>1515920512935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515920512935</updated>
+      <workItem from="1515920514369" duration="18432000" />
+      <workItem from="1515992867786" duration="13179000" />
+      <workItem from="1516104600085" duration="1363000" />
+      <workItem from="1516105988114" duration="48672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81646000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16027689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34848484" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027056277" sideWeight="0.49361023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/vuetify/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vuetify/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="158" column="45" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.f16ac5c624284d30f5af.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.5a5e550a46c4e9ccaa89.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue/dist/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/layout/_container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/mixins/_grid-framework.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1876">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/mixins/_breakpoints.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/mixins/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/layout/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/utilities/_display.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/mixins/_grid-framework.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/mixins/_breakpoints.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap-grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/utilities/_flex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/utilities/_flex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/components/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4200">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11550">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/ghpages-materialize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2436">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/materialize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="585" column="10" lean-forward="false" selection-start-line="585" selection-start-column="10" selection-end-line="585" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialize/components/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2548">
+          <caret line="91" column="13" lean-forward="false" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/utilities/_display.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/mixins/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="187" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16520">
+          <caret line="590" column="16" lean-forward="false" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/layout/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/components/layout/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="9" />
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="9" />
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/components/mixins/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="196">
+            <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <folding>
+              <marker date="1516159743291" expanded="true" signature="83:109" ph="..." />
+              <marker date="1516159743291" expanded="true" signature="218:255" ph="..." />
+              <marker date="1516159743291" expanded="true" signature="218:359" ph="..." />
+              <marker date="1516159743291" expanded="true" signature="255:285" ph="..." />
+              <marker date="1516159743291" expanded="true" signature="322:352" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
