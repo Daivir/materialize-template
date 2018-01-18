@@ -1,0 +1,16 @@
+html {
+	font-family: $font-family;
+}
+
+// TODO: creer sous forme de module
+@for $i from 1 through 6 {
+	h#{$i}, .h#{$i} {
+		$header-font-size: map_get($header-font-sizes, h#{$i});
+		font-family: $header-font-family;
+		font-size: $header-font-size;
+		font-weight: $header-font-weight;
+		color: $header-font-color;
+		margin-top: $header-font-size / 1.5;
+		margin-bottom: $header-font-size / 2.5;
+	}
+}

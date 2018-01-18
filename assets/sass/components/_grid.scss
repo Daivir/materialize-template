@@ -3,9 +3,8 @@
 .container {
 	margin: 0 auto;
 	max-width: map_get($breakpoints, lg);
-	$container-min-width: 90%;
-	@include make-container($container-min-width);
-	width: $container-min-width;
+	@include make-container($container-max-width);
+	width: $container-max-width;
 }
 
 .divider {

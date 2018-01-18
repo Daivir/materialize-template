@@ -1,7 +1,6 @@
+// Bootstrap all components
 @import "components/rooter";
-
-// Reset CSS
-@import "normalize";
 
 // Developement
 @include debug-view("*", color("blue"), false);
+

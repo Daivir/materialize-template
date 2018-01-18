@@ -1,11 +1,15 @@
-// App
-@import "color-variables";
+
+@import "color-palette";
 @import "functions";
 @import "variables";
 @import "mixins";
 
+// Fix css for any browsers
+@import "normalize";
+
 // Components
 @import "grid";
+@import "typo";
 
 // Utilities
 @import "utilities/color";

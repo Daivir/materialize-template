@@ -1,0 +1,23 @@
+// TODO: mixins and modules pattern
+
+@each $name, $color in $colors {
+	.text-#{$name} {
+		color: color($name);
+		@each $key, $shade in $color {
+			&.#{$key}{
+				color: color($name, $key);
+			}
+		}
+	}
+}
+
+@each $name, $color in $colors {
+	.bg-#{$name} {
+		background-color: color($name);
+		@each $key, $shade in $color {
+			&.#{$key}{
+				background-color: color($name, $key);
+			}
+		}
+	}
+}

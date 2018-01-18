@@ -43,8 +43,31 @@ To defines the size of a column: ``col [prefix][columns]``
 
 Colors
 ======
-> Refer to the [Material color palette][1]
 
+####Text
+Syntax: ``text-[color] [shade]``
+```html
+<p class="text-cyan">
+  <!-- content -->
+</p>
+<p class="text-cyan lighten-2">
+  <!-- content -->
+</p>
+<p class="text-cyan darken-4">
+  <!-- content -->
+</p>
+```
+
+####Background
+Syntax: ``bg-[color] [shade]``
+```html
+<p class="bg-teal accent-3">
+  <!-- content -->
+</p>
+```
+> Refer to the [Material color palette][1].
+
+***
 
 Work in progress...
 

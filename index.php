@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="assets/css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -10,8 +11,13 @@
 	<div class="row">
 		<div class="col sm12 md8 lg8 xl8">
 			<section>
-				<h5>Section</h5>
-				<p>
+				<h1>Header 1</h1>
+				<h2>Header 2</h2>
+				<h3>Header 3</h3>
+				<h4>Header 4</h4>
+				<h5>Header 5</h5>
+				<h6>Header 6</h6>
+				<p class="text-red darken-4">
 					Lorem ipsum dolor sit amet: Content1
 				</p>
 			</section>
