@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd35c4f-21bb-4981-aa09-388d39112319" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/_typo.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/components/utilities/_color.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css.map" afterPath="$PROJECT_DIR$/assets/css/app.css.map" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/_normalize.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_normalize.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/app.scss" afterPath="$PROJECT_DIR$/assets/sass/app.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_color-variables.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_color-palette.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_functions.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_functions.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_grid.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_grid.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_rooter.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_rooter.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_variables.scss" afterPath="$PROJECT_DIR$/assets/sass/components/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/utilities/_color.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,20 +18,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="641">
-                <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+              <first_editor relative-caret-position="1440">
+                <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
                 <folding>
-                  <marker date="1516281974739" expanded="true" signature="58:84" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="182:219" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="182:323" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="219:249" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="286:316" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1303:1327" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1359:1383" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1414:1433" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1414:1435" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1414:1438" ph="..." />
-                  <marker date="1516281974739" expanded="true" signature="1526:1550" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="59:85" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="184:221" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="184:325" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="221:251" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="288:318" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1306:1330" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1362:1386" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1417:1436" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1417:1438" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1417:1441" ph="..." />
+                  <marker date="1516282133222" expanded="true" signature="1530:1554" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -252,12 +227,12 @@
       <workItem from="1516105988114" duration="49242000" />
       <workItem from="1516226003325" duration="20568000" />
       <workItem from="1516248919526" duration="3130000" />
-      <workItem from="1516264960404" duration="14563000" />
+      <workItem from="1516264960404" duration="14726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120477000" />
+    <option name="totallyTimeSpent" value="120640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,9 +245,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16506922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16506922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34848484" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
@@ -662,20 +636,20 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="641">
-            <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <first_editor relative-caret-position="1440">
+            <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
             <folding>
-              <marker date="1516281974739" expanded="true" signature="58:84" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="182:219" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="182:323" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="219:249" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="286:316" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1303:1327" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1359:1383" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1414:1433" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1414:1435" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1414:1438" ph="..." />
-              <marker date="1516281974739" expanded="true" signature="1526:1550" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="59:85" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="184:221" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="184:325" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="221:251" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="288:318" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1306:1330" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1362:1386" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1417:1436" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1417:1438" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1417:1441" ph="..." />
+              <marker date="1516282133222" expanded="true" signature="1530:1554" ph="..." />
             </folding>
           </first_editor>
           <second_editor />

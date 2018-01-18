@@ -1,6 +1,6 @@
 Layout
 ======
-####Container
+#### Container
 ```html
 <div class="container">
   <!-- content -->
@@ -9,7 +9,7 @@ Layout
 > Contain the main content in the center of the page
     
 
-####Grid
+#### Grid
 ```html
 <div class="row">
   <div class="col sm12 md7 lg8 xl9">
@@ -44,7 +44,7 @@ To defines the size of a column: ``col [prefix][columns]``
 Colors
 ======
 
-####Text
+#### Text
 Syntax: ``text-[color] [shade]``
 ```html
 <p class="text-cyan">
@@ -58,7 +58,7 @@ Syntax: ``text-[color] [shade]``
 </p>
 ```
 
-####Background
+#### Background
 Syntax: ``bg-[color] [shade]``
 ```html
 <p class="bg-teal accent-3">
