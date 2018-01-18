@@ -1,24 +1,22 @@
-// @mixin break-to($breakpoint) {
-// 	@if map-has-key($breakpoints, $breakpoint) {
-// 		@media (min-width: #{map-get($breakpoints, $breakpoint)}) {
-// 			@content;
-// 		}
-// 	}
-//
-// 	@else {
-// 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-//         + "Please make sure it is defined in `$breakpoints` map.";
-// 	}
-// }
-
 @mixin break-to($breakpoint) {
 	@if map-has-key($breakpoints, $breakpoint) {
-		@media (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+		@media only screen and (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
 			@content;
 		}
 	} @else {
 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
         + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin make-container($container-min-width) {
+	@each $key, $breakpoint in $breakpoints {
+		@include break-to($key) {
+			$i: index($breakpoints, ($key $breakpoint));
+			& {
+				width: $container-min-width - ($i * 5);
+			}
+		}
 	}
 }
 
@@ -40,30 +38,35 @@
 	}
 }
 
-@mixin make-first-breakpoint($keyList, $currentKey) {
-	$firstKey: first($keyList);
-	@if $firstKey == $currentKey {
-		@for $i from 1 through $num-cols {
-			$col-width: unquote((100 / ($num-cols / $i)) + "%");
-			&.#{$firstKey}#{$i} {
-				width: $col-width;
-				@include reset-offset;
-			}
-			@include grid-actions($firstKey, $i, $col-width);
+
+@mixin make-columns($key) {
+	@for $i from 1 through $num-cols {
+		$column-width: unquote((100 / ($num-cols / $i)) + "%");
+		&.#{$key}#{$i} {
+			width: $column-width;
+			@include reset-offset;
 		}
 	}
 }
 
-@mixin make-breakpoint($keyList, $currentKey) {
-	@include break-to($currentKey) {
-		$nextKey: next($keyList, $currentKey);
+@mixin make-grid-actions($key) {
 		@for $i from 1 through $num-cols {
 			$col-width: unquote((100 / ($num-cols / $i)) + "%");
-			&.#{$nextKey}#{$i} {
-				width: $col-width;
-				@include reset-offset;
-			}
-			@include grid-actions("#{$nextKey}", $i, $col-width);
+			@include grid-actions("#{$key}", $i, $col-width);
+		}
+}
+
+@mixin make-breakpoints() {
+	$keyList: append(map-keys($breakpoints), "xl", comma);
+	@each $key, $breakpoint in $keyList {
+		$firstKey: first($keyList);
+		@if $firstKey == $key {
+			@include make-columns($firstKey);
+		}
+		@include break-to($key) {
+			$nextKey: next($keyList, $key);
+			@include make-columns($nextKey);
+			@include make-grid-actions($nextKey);
 		}
 	}
 }

@@ -11,8 +11,7 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  @include vendorize(text-size-adjust, none); /* 2 */
 }
 
 /* Sections
@@ -278,7 +277,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  @include vendorize(appearance, button); /* 2 */
 }
 
 /**

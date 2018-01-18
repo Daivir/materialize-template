@@ -1,20 +1,15 @@
-Components
-----------
-
-### Layout
-
-#####1. Container
+Layout
+======
+####Container
 ```html
 <div class="container">
   <!-- content -->
 </div>
 ```
 > Contain the main content in the center of the page
+    
 
-  
--------
-
-#####2. Grid
+####Grid
 ```html
 <div class="row">
   <div class="col sm12 md7 lg8 xl9">
@@ -27,26 +22,30 @@ Components
 ```
 > Creates a responsive grid system of 12 columns.
         
-To defines the breakpoints of a column: ``col [breakpoints][columns]``
-
-- ``breakpoints`` => ``sm | md | lg | xl`` 
+To defines the size of a column: ``col [prefix][columns]``
+- ``prefix`` => ``sm | md | lg | xl`` 
 - ``columns`` => ``0 - 12``
 
-| Breakpoints      | Value          | Device      |
-| :--------------: | :------------: | :---------: |
-| sm (small)       | &#8804; 668px  | Mobile      |
-| md (medium)      | &#8804; 992px  | Tablet      |
-| lg (large)       | &#8804; 1200px | Screen (PC) |
-| xl (extra-large) | \> 1200px      | Extra       |
+| Device      | Prefix           | Value (default) | 
+| :---------: | :--------------: | :-------------: | 
+| Mobile      | sm (small)       | &#8804; 668px   | 
+| Tablet      | md (medium)      | &#8804; 992px   | 
+| Screen (PC) | lg (large)       | &#8804; 1280px  | 
+| Extra       | xl (extra-large) | \> 1280px       | 
 
 > The number of columns and the breakpoints can be modified from ``components/_variables.scss``
 
 ###### Actions:
-- Use ``offset-[breakpoints][columns]`` to offset an element of *x* column(s)
-- Use ``push-[breakpoints][columns]`` to push an element of *x* column(s)
-- Use ``pull-[breakpoints][columns]`` to pull an element of *x* column(s)
+ - Use ``offset-[prefix][columns]`` to offset an element of *x* column(s)
+ - Use ``push-[prefix][columns]`` to push an element of *x* column(s)
+ - Use ``pull-[prefix][columns]`` to pull an element of *x* column(s)
+> Actions should be placed after the breakpoints.
 
-  
--------
+Colors
+======
+> Refer to the [Material color palette][1]
+
 
 Work in progress...
+
+[1]: https://material.io/guidelines/style/color.html#color-color-palette

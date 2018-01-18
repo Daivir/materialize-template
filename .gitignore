@@ -1,6 +1,7 @@
 .gitignore
 .DS_Store
 .sass-cache
+.idea
 bootstrap
 materialize
 assets/css

@@ -1,9 +1,12 @@
 // Colors
-@function color($key) {
-	@if map-has-key($colors, $key) {
-		@return map-get($colors, $key);
+@function color($color, $shade: "base") {
+	@if map-has-key($colors, $color) {
+		$curr_color: map-get($colors, $color);
+		@if map-has-key($curr_color, $shade) {
+			@return map-get($curr_color, $shade);
+		}
 	}
-	@warn "Unknown `#{$key}` in $colors.";
+	@warn "Unknown `#{$color}` - `#{$shade}` in $colors.";
 	@return null;
 }
 

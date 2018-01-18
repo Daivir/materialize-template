@@ -1,12 +1,7 @@
+@import "components/rooter";
+
+// Reset CSS
 @import "normalize";
 
-@import "components/functions";
-@import "components/variables";
-@import "components/mixins";
-
-@import "components/grid";
-
-* {
-	outline-offset: -1px;
-	outline: 1px solid red;
-}
+// Developement
+@include debug-view("*", color("blue"), false);

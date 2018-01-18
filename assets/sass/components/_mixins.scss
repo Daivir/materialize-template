@@ -1,0 +1,17 @@
+@mixin vendorize($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+@mixin debug-view($rule, $color, $display: true) {
+	@if ($display) {
+		$class: unquote($rule);
+		#{$class} {
+			outline-offset: -1px;
+			outline: 1px solid $color;
+		}
+	}
+}
