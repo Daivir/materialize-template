@@ -1,4 +1,4 @@
-@mixin break-to($breakpoint) {
+@mixin breaks-on($breakpoint) {
 	@if map-has-key($breakpoints, $breakpoint) {
 		@media only screen and (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
 			@content;
@@ -9,27 +9,19 @@
 	}
 }
 
-@mixin make-container($container-min-width) {
-	@each $key, $breakpoint in $breakpoints {
-		@include break-to($key) {
-			$i: index($breakpoints, ($key $breakpoint));
-			& {
-				width: $container-min-width - ($i * 5);
-			}
+@mixin make-container($breaks: $breakpoints, $widths: $container-widths) {
+	@each $key, $breakpoint in $breaks {
+		@include breaks-on($key) {
+			width: map_get($widths, $key);
 		}
 	}
 }
 
-@mixin reset-offset {
-	margin-left: auto;
-	left: auto;
-	right: auto;
-}
-
-@mixin grid-actions($size, $i, $spacing) {
+@mixin make-grid-actions($size, $i, $spacing) {
 	&.offset-#{$size}#{$i} {
 		margin-left: $spacing;
 	}
+
 	&.pull-#{$size}#{$i} {
 		right: $spacing;
 	}
@@ -38,35 +30,33 @@
 	}
 }
 
-
-@mixin make-columns($key) {
+@mixin columns($key) {
 	@for $i from 1 through $num-cols {
 		$column-width: unquote((100 / ($num-cols / $i)) + "%");
 		&.#{$key}#{$i} {
 			width: $column-width;
-			@include reset-offset;
 		}
 	}
 }
 
-@mixin make-grid-actions($key) {
+@mixin grid-actions($key) {
 		@for $i from 1 through $num-cols {
 			$col-width: unquote((100 / ($num-cols / $i)) + "%");
-			@include grid-actions("#{$key}", $i, $col-width);
+			@include make-grid-actions("#{$key}", $i, $col-width);
 		}
 }
 
-@mixin make-breakpoints() {
+@mixin make-columns() {
 	$keyList: append(map-keys($breakpoints), "xl", comma);
 	@each $key, $breakpoint in $keyList {
 		$firstKey: first($keyList);
 		@if $firstKey == $key {
-			@include make-columns($firstKey);
+			@include columns($firstKey);
 		}
-		@include break-to($key) {
+		@include breaks-on($key) {
 			$nextKey: next($keyList, $key);
-			@include make-columns($nextKey);
-			@include make-grid-actions($nextKey);
+			@include columns($nextKey);
+			@include grid-actions($nextKey);
 		}
 	}
 }

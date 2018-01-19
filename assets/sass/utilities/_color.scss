@@ -1,0 +1,43 @@
+@each $name, $color in $colors {
+	.text-#{$name} {
+		color: color($name);
+		@each $key, $shade in $color {
+			&.#{$key}{
+				color: color($name, $key);
+			}
+		}
+	}
+}
+
+.text-primary {
+	color: $primary-color;
+	&-light { color: lighten($primary-color, 15%) }
+	&-dark { color: darken($primary-color, 15%) }
+}
+.text-secondary {
+	color: $secondary-color;
+	&-light { color: lighten($secondary-color, 15%) }
+	&-dark { color: darken($secondary-color, 15%) }
+}
+
+@each $name, $color in $colors {
+	.bg-#{$name} {
+		background-color: color($name);
+		@each $key, $shade in $color {
+			&.#{$key}{
+				background-color: color($name, $key);
+			}
+		}
+	}
+}
+
+.bg-primary {
+	background-color: $primary-color;
+	&-light { background-color: lighten($primary-color, 15%) }
+	&-dark { background-color: darken($primary-color, 15%) }
+}
+.bg-secondary {
+	background-color: $secondary-color;
+	&-light { background-color: lighten($secondary-color, 15%) }
+	&-dark { background-color: darken($secondary-color, 15%) }
+}

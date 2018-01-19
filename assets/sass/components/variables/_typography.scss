@@ -1,0 +1,27 @@
+/**
+ * Typography
+ * _typo.scss
+ */
+
+// Font
+$font-weights: (
+		"thin": 100,
+		"light": 300,
+		"regular": 400,
+		"medium": 500,
+		"bold": 700,
+		"black": 900
+);
+
+// Header
+$header-font-family: $font-family;
+$header-font-weight: map-get($font-weights, "regular");
+$header-font-color: $primary-color;
+$header-font-sizes: (
+		h1: $font-size * 2.5,
+		h2: $font-size * 2,
+		h3: $font-size * 1.75,
+		h4: $font-size * 1.5,
+		h5: $font-size * 1.25,
+		h6: $font-size
+);

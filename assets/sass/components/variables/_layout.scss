@@ -1,0 +1,23 @@
+/**
+ * Layout
+ * _grid.scss | mixins/_grid.scss
+	**/
+
+$num-cols: 12;
+
+$breakpoints: (
+		sm: 640px, // Refered to Galaxy S7 landscape width
+		md: 992px, // Refered to Galaxy S7 width
+		lg: 1280px // Refered to standard HD laptop screen width
+);
+
+$container-widths: (
+		sm: 90%,
+		md: 85%,
+		lg: 75%
+);
+
+$section-spacer: $spacer;
+$row-spacer: 0;
+
+$divider-color: color("grey", "lighten-2");

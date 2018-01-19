@@ -7,12 +7,12 @@
 /**
  * Layout
  * _grid.scss | mixins/_grid.scss
- */
+	**/
 /**
  * Typography
  * _typo.scss
  */
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -21,23 +21,17 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  -o-text-size-adjust: none;
-  text-size-adjust: none;
-  /* 2 */ }
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- */
 body {
   margin: 0; }
 
+/* Sections
+   ========================================================================== */
 /**
  * Add the correct display in IE 9-.
  */
@@ -214,22 +208,14 @@ svg:not(:root) {
 /* Forms
    ========================================================================== */
 /**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */ }
+  margin: 0; }
 
 /**
  * Show the overflow in IE.
@@ -259,10 +245,6 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  -moz-appearance: button;
-  -ms-appearance: button;
-  -o-appearance: button;
-  appearance: button;
   /* 2 */ }
 
 /**
@@ -283,12 +265,6 @@ button:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText; }
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -409,16 +385,34 @@ template {
 [hidden] {
   display: none; }
 
+/* This is needed for some mobile phones to display the Google Icon font properly */
+.material-icons {
+  line-height: initial;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga'; }
+
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
 .container {
   margin: 0 auto;
-  max-width: 1280px;
-  width: 90%; }
+  width: 90%;
+  max-width: 1280px; }
   @media only screen and (min-width: 641px) {
     .container {
-      width: 85%; } }
+      width: 90%; } }
   @media only screen and (min-width: 993px) {
     .container {
-      width: 80%; } }
+      width: 85%; } }
   @media only screen and (min-width: 1281px) {
     .container {
       width: 75%; } }
@@ -439,135 +433,64 @@ section {
     padding-top: 0; }
 
 .row {
-  margin-bottom: 1rem;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-direction: row; }
   .row .col {
     min-height: 1px;
     width: 100%; }
     .row .col[class*="push-"], .row .col[class*="pull-"] {
       position: relative; }
     .row .col.sm1 {
-      width: 8.3333333333%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 8.3333333333%; }
     .row .col.sm2 {
-      width: 16.6666666667%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 16.6666666667%; }
     .row .col.sm3 {
-      width: 25%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 25%; }
     .row .col.sm4 {
-      width: 33.3333333333%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 33.3333333333%; }
     .row .col.sm5 {
-      width: 41.6666666667%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 41.6666666667%; }
     .row .col.sm6 {
-      width: 50%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 50%; }
     .row .col.sm7 {
-      width: 58.3333333333%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 58.3333333333%; }
     .row .col.sm8 {
-      width: 66.6666666667%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 66.6666666667%; }
     .row .col.sm9 {
-      width: 75%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 75%; }
     .row .col.sm10 {
-      width: 83.3333333333%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 83.3333333333%; }
     .row .col.sm11 {
-      width: 91.6666666667%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 91.6666666667%; }
     .row .col.sm12 {
-      width: 100%;
-      margin-left: auto;
-      left: auto;
-      right: auto; }
+      width: 100%; }
     @media only screen and (min-width: 641px) {
       .row .col.md1 {
-        width: 8.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 8.3333333333%; }
       .row .col.md2 {
-        width: 16.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 16.6666666667%; }
       .row .col.md3 {
-        width: 25%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 25%; }
       .row .col.md4 {
-        width: 33.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 33.3333333333%; }
       .row .col.md5 {
-        width: 41.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 41.6666666667%; }
       .row .col.md6 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 50%; }
       .row .col.md7 {
-        width: 58.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 58.3333333333%; }
       .row .col.md8 {
-        width: 66.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 66.6666666667%; }
       .row .col.md9 {
-        width: 75%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 75%; }
       .row .col.md10 {
-        width: 83.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 83.3333333333%; }
       .row .col.md11 {
-        width: 91.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 91.6666666667%; }
       .row .col.md12 {
-        width: 100%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 100%; }
       .row .col.offset-md1 {
         margin-left: 8.3333333333%; }
       .row .col.pull-md1 {
@@ -642,65 +565,29 @@ section {
         left: 100%; } }
     @media only screen and (min-width: 993px) {
       .row .col.lg1 {
-        width: 8.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 8.3333333333%; }
       .row .col.lg2 {
-        width: 16.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 16.6666666667%; }
       .row .col.lg3 {
-        width: 25%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 25%; }
       .row .col.lg4 {
-        width: 33.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 33.3333333333%; }
       .row .col.lg5 {
-        width: 41.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 41.6666666667%; }
       .row .col.lg6 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 50%; }
       .row .col.lg7 {
-        width: 58.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 58.3333333333%; }
       .row .col.lg8 {
-        width: 66.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 66.6666666667%; }
       .row .col.lg9 {
-        width: 75%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 75%; }
       .row .col.lg10 {
-        width: 83.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 83.3333333333%; }
       .row .col.lg11 {
-        width: 91.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 91.6666666667%; }
       .row .col.lg12 {
-        width: 100%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 100%; }
       .row .col.offset-lg1 {
         margin-left: 8.3333333333%; }
       .row .col.pull-lg1 {
@@ -775,65 +662,29 @@ section {
         left: 100%; } }
     @media only screen and (min-width: 1281px) {
       .row .col.xl1 {
-        width: 8.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 8.3333333333%; }
       .row .col.xl2 {
-        width: 16.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 16.6666666667%; }
       .row .col.xl3 {
-        width: 25%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 25%; }
       .row .col.xl4 {
-        width: 33.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 33.3333333333%; }
       .row .col.xl5 {
-        width: 41.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 41.6666666667%; }
       .row .col.xl6 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 50%; }
       .row .col.xl7 {
-        width: 58.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 58.3333333333%; }
       .row .col.xl8 {
-        width: 66.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 66.6666666667%; }
       .row .col.xl9 {
-        width: 75%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 75%; }
       .row .col.xl10 {
-        width: 83.3333333333%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 83.3333333333%; }
       .row .col.xl11 {
-        width: 91.6666666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 91.6666666667%; }
       .row .col.xl12 {
-        width: 100%;
-        margin-left: auto;
-        left: auto;
-        right: auto; }
+        width: 100%; }
       .row .col.offset-xl1 {
         margin-left: 8.3333333333%; }
       .row .col.pull-xl1 {
@@ -913,50 +764,76 @@ html {
 h1, .h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.5rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 1.6666666667rem;
   margin-bottom: 1rem; }
 
 h2, .h2 {
   font-family: Roboto, sans-serif;
   font-size: 2rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 1.3333333333rem;
   margin-bottom: 0.8rem; }
 
 h3, .h3 {
   font-family: Roboto, sans-serif;
   font-size: 1.75rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 1.1666666667rem;
   margin-bottom: 0.7rem; }
 
 h4, .h4 {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 1rem;
   margin-bottom: 0.6rem; }
 
 h5, .h5 {
   font-family: Roboto, sans-serif;
   font-size: 1.25rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 0.8333333333rem;
   margin-bottom: 0.5rem; }
 
 h6, .h6 {
   font-family: Roboto, sans-serif;
   font-size: 1rem;
-  font-weight: 300;
-  color: #00796b;
+  font-weight: 400;
+  color: #009688;
   margin-top: 0.6666666667rem;
   margin-bottom: 0.4rem; }
+
+nav {
+  padding: 1rem 0;
+  background-color: #009688;
+  position: relative; }
+  nav .nav-header {
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: 0; }
+  nav ul.nav-items {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    list-style-type: none; }
+    nav ul.nav-items.left {
+      justify-content: start; }
+    nav ul.nav-items.right {
+      justify-content: end; }
+    nav ul.nav-items li > a {
+      text-decoration: none;
+      padding: 1rem 0.75rem;
+      color: #FFFFFF; }
+      nav ul.nav-items li > a:hover {
+        background-color: #00635a; }
 
 .text-red {
   color: #F44336; }
@@ -1530,6 +1407,20 @@ h6, .h6 {
 .text-shades.transparent {
   color: transparent; }
 
+.text-primary {
+  color: #009688; }
+  .text-primary-light {
+    color: #00e3cd; }
+  .text-primary-dark {
+    color: #004a43; }
+
+.text-secondary {
+  color: #90a4ae; }
+  .text-secondary-light {
+    color: #bcc8ce; }
+  .text-secondary-dark {
+    color: #667f8c; }
+
 .bg-red {
   background-color: #F44336; }
   .bg-red.base {
@@ -2101,5 +1992,23 @@ h6, .h6 {
   background-color: #FFFFFF; }
 .bg-shades.transparent {
   background-color: transparent; }
+
+.bg-primary {
+  background-color: #009688; }
+  .bg-primary-light {
+    background-color: #00e3cd; }
+  .bg-primary-dark {
+    background-color: #004a43; }
+
+.bg-secondary {
+  background-color: #90a4ae; }
+  .bg-secondary-light {
+    background-color: #bcc8ce; }
+  .bg-secondary-dark {
+    background-color: #667f8c; }
+
+* {
+  outline-offset: -1px;
+  outline: 1px solid #2196F3; }
 
 /*# sourceMappingURL=app.css.map */

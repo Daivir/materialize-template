@@ -8,51 +8,11 @@ $font-size-lg: $font-size * 1.25;
 
 $font-family: Roboto, sans-serif;
 
-$primary-color: color("teal", "darken-2");
-$secondary-color: color("grey");
+$primary-color: color("teal");
+$secondary-color: color("blue-grey", "lighten-2");
 
 $spacer: 1rem;
 
-/**
- * Layout
- * _grid.scss | mixins/_grid.scss
- */
-
-// Grid
-$num-cols: 12;
-$container-max-width: 90%;
-$breakpoints: (
-	sm: 640px, // Refered to Galaxy S7 landscape width
-	md: 992px, // Refered to Galaxy S7 width
-	lg: 1280px // Refered to standard HD laptop screen width
-);
-
-$divider-color: color("grey", "lighten-2");
-
-/**
- * Typography
- * _typo.scss
- */
-
-// Font
-$font-weights: (
-	"thin": 100,
-	"light": 300,
-	"regular": 400,
-	"medium": 500,
-	"bold": 700,
-	"black": 900
-);
-
-// Header
-$header-font-family: $font-family;
-$header-font-weight: map-get($font-weights, "light");
-$header-font-color: $primary-color;
-$header-font-sizes: (
-	h1: $font-size * 2.5,
-	h2: $font-size * 2,
-	h3: $font-size * 1.75,
-	h4: $font-size * 1.5,
-	h5: $font-size * 1.25,
-	h6: $font-size
-);
+@import "variables/layout";
+@import "variables/typography";
+@import "variables/nav";

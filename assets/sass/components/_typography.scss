@@ -2,7 +2,7 @@ html {
 	font-family: $font-family;
 }
 
-// TODO: creer sous forme de module
+// Headers
 @for $i from 1 through 6 {
 	h#{$i}, .h#{$i} {
 		$header-font-size: map_get($header-font-sizes, h#{$i});

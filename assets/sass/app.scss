@@ -1,6 +1,5 @@
 // Bootstrap all components
-@import "components/rooter";
+@import "boot";
 
 // Developement
-@include debug-view("*", color("blue"), false);
-
+@include debug-view("*", color("blue"), true);

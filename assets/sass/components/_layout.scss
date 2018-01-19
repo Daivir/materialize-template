@@ -1,10 +1,8 @@
-@import "mixins/grid";
-
 .container {
 	margin: 0 auto;
+	width: map_get($container-widths, sm);
 	max-width: map_get($breakpoints, lg);
-	@include make-container($container-max-width);
-	width: $container-max-width;
+	@include make-container();
 }
 
 .divider {
@@ -14,8 +12,8 @@
 }
 
 section {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: $section-spacer;
+	padding-bottom: $section-spacer;
 
 	&.p-0 {
 		padding: 0;
@@ -29,20 +27,20 @@ section {
 }
 
 .row {
-	margin-bottom: 1rem;
+	margin: $row-spacer auto;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction:row;
 
 	.col {
 		min-height: 1px;
+		width: 100%;
 
 		&[class*="push-"],
 		&[class*="pull-"] {
 			position: relative;
 		}
 
-		width: 100%;
-
-		@include make-breakpoints();
+		@include make-columns();
 	}
 }

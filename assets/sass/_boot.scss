@@ -1,0 +1,19 @@
+// Color palette
+@import "components/color-palette";
+
+// Root
+@import "components/functions";
+@import "components/variables";
+@import "components/mixins";
+
+// Fix CSS for any browsers
+@import "components/normalize";
+
+// Components
+@import "components/icons";
+@import "components/layout";
+@import "components/typography";
+@import "components/nav";
+
+// Utilities
+@import "utilities/color";
