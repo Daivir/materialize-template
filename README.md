@@ -5,6 +5,10 @@ Layout
 <div class="container">
   <!-- content -->
 </div>
+or
+<main>
+  <!-- content -->
+</main>
 ```
 > Contain the main content in the center of the page
     

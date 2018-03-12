@@ -1,0 +1,19 @@
+@mixin flow-text($target) {
+	$intervals: 12;
+	$target-size: map-get($font-sizes, $target);
+	font-size: $target-size;
+	@for $i from 0 through $intervals {
+		$range : map_get($breakpoints, lg) - map_get($breakpoints, sm);
+		@media only screen and (min-width: 360 + ($i * ($range / $intervals))) {
+			font-size: $target-size * (1 + (.2 * $i));
+		}
+	}
+}
+
+@mixin font-style($target) {
+	$target-size: map-get($font-sizes, $target);
+	color: $header-font-color;
+	font-family: $font-family;
+	font-size: $target-size;
+	word-wrap: break-word;
+}

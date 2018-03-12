@@ -1,5 +1,0 @@
-// Bootstrap all components
-@import "boot";
-
-// Developement
-@include debug-view("*", color("blue"), true);

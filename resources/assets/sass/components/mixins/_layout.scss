@@ -1,0 +1,73 @@
+@mixin breaks-up($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media only screen and (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin breaks-down($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media only screen and (max-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin make-container($breaks: $breakpoints, $widths: $container-widths) {
+	@each $key, $breakpoint in $breaks {
+		@include breaks-up($key) {
+			width: map_get($widths, $key);
+		}
+	}
+}
+
+@mixin make-grid-actions($size, $i, $spacing) {
+	&.offset-#{$size}#{$i} {
+		margin-left: $spacing;
+	}
+
+	&.pull-#{$size}#{$i} {
+		right: $spacing;
+	}
+	&.push-#{$size}#{$i} {
+		left: $spacing;
+	}
+}
+
+@mixin columns($key) {
+	@for $i from 1 through $num-cols {
+		&.#{$key}#{$i} {
+			padding: 0 ($gutter-width / 2);
+			width: percentage($i / $num-cols);
+		}
+		@include make-grid-actions("#{$key}", $i, percentage($i / $num-cols));
+	}
+}
+
+// @mixin grid-actions($key) {
+// 		@for $i from 1 through $num-cols {
+// 			@include make-grid-actions("#{$key}", $i, percentage($i / $num-cols));
+// 		}
+// }
+
+@mixin make-columns() {
+	$keyList: append(map-keys($breakpoints), "xl", comma);
+	@each $key, $breakpoint in $keyList {
+		$firstKey: first($keyList);
+		@if $firstKey == $key {
+			@include columns($firstKey);
+		}
+		@include breaks-up($key) {
+			$nextKey: next($keyList, $key);
+			@include columns($nextKey);
+			//@include grid-actions($nextKey);
+		}
+	}
+}

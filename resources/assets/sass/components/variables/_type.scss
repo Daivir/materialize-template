@@ -1,0 +1,28 @@
+/**
+ * Typography (mobile first)
+ * _typo.scss
+ */
+
+$font-weights: (
+		"thin": 100,
+		"light": 300,
+		"regular": 400,
+		"medium": 500,
+		"bold": 700,
+		"black": 900
+);
+
+$font-sizes: (
+		'display-4':  112px,
+		'display-3':  56px,
+		'display-2':  45px,
+		'display-1':  34px,
+		'headline':   24px,
+		'title':      20px,
+		'subheading': 16px,
+		'body':       14px,
+		'caption':    12px,
+		'button':     14px
+);
+
+$header-font-color: $primary-color;

@@ -1,0 +1,23 @@
+/** Wave effect **/
+.wave {
+	position: relative;
+}
+
+@keyframes wave-animate {
+	from { transform: scale(0.6); }
+	to { transform: scale(0.8); }
+}
+
+.wave-effect {
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	opacity: .5;
+	background-color: $secondary-color;
+	transform: scale(0);
+	@include vendorize(animation, wave-animate .1s forwards);
+}

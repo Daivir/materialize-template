@@ -1,0 +1,47 @@
+.drawer {
+	position:absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	display: none;
+
+	background-color: fade_out(color("shades", "black"), .5);
+
+	.drawer-header {
+		width: 300px;
+		height: 150px;
+	}
+
+	ul {
+		position:absolute;
+		display: block;
+		top: 0;
+		&.left { left: 0; }
+		&.right { right: 0; }
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 300px;
+		background-color: white;
+		list-style-type: none;
+		li {
+			a {
+				padding: 12px 1rem;
+				display: block;
+				line-height: 24px;
+				text-decoration: none;
+				@extend %body-2;
+				i {
+					margin-right: 1rem;
+					padding: 0;
+					vertical-align: bottom;
+				}
+				&:hover {
+					background-color: darken(color("shades", "white"), 15%);
+				}
+			}
+		}
+	}
+}

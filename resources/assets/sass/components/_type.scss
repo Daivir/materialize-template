@@ -1,0 +1,93 @@
+html {
+	font-family: $font-family;
+}
+
+.flow-text {
+	@include flow-text('body');
+}
+
+.display-4, %display-4, h1 {
+	@include font-style('display-4');
+	font-weight: map_get($font-weights, 'light');
+	&.flow-text {
+		@include flow-text('display-4');
+	}
+}
+
+.display-3, %display-3, h2 {
+	@include font-style('display-3');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('display-3');
+	}
+}
+
+.display-2, %display-2, h3 {
+	@include font-style('display-2');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('display-2');
+	}
+}
+
+.display-1, %display-1, h4 {
+	@include font-style('display-1');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('display-1');
+	}
+}
+
+.headline, %headline, h5 {
+	@include font-style('headline');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('headline');
+	}
+}
+
+.title, %title, h6 {
+	@include font-style('title');
+	font-weight: map_get($font-weights, 'medium');
+	&.flow-text {
+		@include flow-text('title');
+	}
+}
+
+.subheading, %subheading {
+	@include font-style('subheading');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('subheading');
+	}
+}
+
+.body-2, %body-2, p > b {
+	@include font-style('body');
+	font-weight: map_get($font-weights, 'medium');
+	&.flow-text {
+		@include flow-text('body');
+	}
+}
+
+.body-1, %body-1, p, html {
+	@include font-style('body');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('body');
+	}
+}
+
+.caption, %caption {
+	@include font-style('caption');
+	font-weight: map_get($font-weights, 'regular');
+	&.flow-text {
+		@include flow-text('caption');
+	}
+}
+
+.button, %button, button {
+	@include font-style('button');
+	font-weight: map_get($font-weights, 'medium');
+	text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+.list {
+	list-style: unset;
+	padding: 0 1rem;
+	.row {
+		padding: 12px 0;
+		line-height: 24px;
+		font-size: $font-size-lg;
+		i {
+			color: fade-out($font-color, .5);
+			margin-right: 32px;
+			vertical-align: bottom;
+		}
+	}
+}

@@ -1,7 +1,14 @@
-.gitignore
-.DS_Store
-assets/.sass-cache
-.idea
+.git
 bootstrap
 materialize
-assets/css
+
+# Dependencies
+package-lock.json
+node_modules
+
+# Generated files
+static/*
+!static/.gitkeep
+
+# IDE folders and files
+.idea
